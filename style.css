@@ -26,7 +26,6 @@ body {
 
 .navbar-brand h1 {
     font-size: 1.3rem;
-    /* border: 2px solid black; */
     width: 30%;
     margin-left: 7rem;
 }
@@ -41,17 +40,17 @@ body {
     gap: 1.5rem;
 }
 .cart-search {
-    width: 15%;
-    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .login-signup {
-    /* border: 2px solid black; */
     width: 25%;
     display: flex;
 
 }
 .cart-search i {
-    padding-left: 1.5rem;
+    padding:1rem;
     cursor: pointer;
 }
 .cart-search :last-child {
@@ -79,11 +78,10 @@ body {
 }
 .container1 {
     width: 100vw;
-    height:56vh;
-    display: grid;
-    grid-template-columns: 35% 65%;
-    /* background-color: antiquewhite; */
-    
+    height:auto;
+    display: flex;
+    flex: wrap;
+  
 }
 .main-data h2 {
     font-size: 2.5rem;
@@ -117,7 +115,7 @@ body {
     margin-left: 7rem;
 }
 .main-pic {
-    background-image: url("main-pic.jpg");
+    background-image: url("Hero-section.jpg");
     background-size: cover;
     background-position: 25% 75%;
     clip-path: polygon( 0 0, 100% 0,100% 100% , 30% 100%);
